@@ -1,0 +1,30 @@
+.progress-bar_container {
+    height: 20px;
+    width: 1000px;
+    overflow: hidden;
+}
+
+.progress-bar_container > .progress-bar_preview-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: auto;
+    width: 100%;
+}
+
+.progress-bar_container > .progress-bar_progress-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: auto;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.textured-arc-spinner_spinner {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}

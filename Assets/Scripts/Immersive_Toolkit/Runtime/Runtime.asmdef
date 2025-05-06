@@ -1,0 +1,21 @@
+{
+    "name": "Runtime",
+    "rootNamespace": "Immersive_Toolkit",
+    "references": [
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:029c1c1b674aaae47a6841a0b89ad80e",
+        "GUID:343deaaf83e0cee4ca978e7df0b80d21",
+        "GUID:49ceddbb4a725e84daaeb15cc7a3e076",
+        "GUID:8470a8d5ce33c4842b649c1fb1a9eedb",
+        "GUID:d5f6b018db49fc64089a73d2cc3aeed0"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

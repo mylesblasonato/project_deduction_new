@@ -1,0 +1,22 @@
+{
+  "name": "com.lazy-solutions.loading-screen-toolkit",
+  "version": "1.0.0",
+  "displayName": "Loading Screen Toolkit",
+  "description": "",
+  "unity": "6000.1",
+  "documentationUrl": "https://github.com/Lazy-Solutions/AdvancedSceneManager/docs",
+  "changelogUrl": "https://github.com/Lazy-Solutions/AdvancedSceneManager/releases/latest",
+  "keywords": [],
+  "author": {
+    "name": "Lazy Solutions",
+    "email": "",
+    "url": "https://github.com/Lazy-Solutions/AdvancedSceneManager"
+  },
+  "_upm": {
+    "changelog": ""
+  },
+  "samples": [],
+  "hideInEditor": false,
+  "dependencies": {
+  }
+}

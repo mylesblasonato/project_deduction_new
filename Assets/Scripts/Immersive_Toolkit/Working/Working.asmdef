@@ -1,0 +1,23 @@
+{
+    "name": "Working",
+    "rootNamespace": "Immersive_Toolkit",
+    "references": [
+        "GUID:4307f53044263cf4b835bd812fc161a4",
+        "GUID:57a6d82589ae03c4cabdc058f719f231",
+        "GUID:d525ad6bd40672747bde77962f1c401e",
+        "GUID:43aab4a50a5839e44af6c24ac5006688",
+        "GUID:46b7fe7fb55a0ca4aa66f90961731b83",
+        "GUID:f2be1b7392ef6cc4eafd0ee8ac7a090a",
+        "GUID:8470a8d5ce33c4842b649c1fb1a9eedb",
+        "GUID:ba8c092d026123a418fb4bfb797a7bd8"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
