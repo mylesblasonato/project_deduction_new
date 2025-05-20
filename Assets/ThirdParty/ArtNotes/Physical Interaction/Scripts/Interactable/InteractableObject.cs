@@ -1,8 +1,10 @@
-﻿using UnityEngine;
+﻿using ArtNotes.PhysicalInteraction.Interfaces;
+using ThirdParty.ArtNotes.Physical_Interaction.Scripts.Executors;
+using UnityEngine;
 
 namespace ArtNotes.PhysicalInteraction
 {
-    public abstract class InteractableObject : MonoBehaviour
+    public abstract class InteractableObject : MonoBehaviour, IInteractable
     {
         public Vector3 HitPos => transform.TransformPoint(_hitLocal);
 
@@ -35,6 +37,21 @@ namespace ArtNotes.PhysicalInteraction
         public virtual void InteractEnd()
         {
             if (_endExecutor) _endExecutor.Execute(0);
+        }
+
+        public float GetLookSpeed()
+        {
+            return LookingSpeed;
+        }
+
+        public PlayerLooking.HandMode GetHandMode()
+        {
+            return Hand;
+        }
+
+        public Vector3 GetHandLocation()
+        {
+            return HitPos;
         }
 
         internal virtual void OnDrawGizmosSelected()

@@ -1,6 +1,8 @@
+using ArtNotes.PhysicalInteraction;
+using ThirdParty.ArtNotes.Physical_Interaction.Scripts.Executors;
 using UnityEngine;
 
-namespace ArtNotes.PhysicalInteraction
+namespace ThirdParty.ArtNotes.Physical_Interaction.Scripts.Interactable
 {
     [RequireComponent(typeof(HingeJoint))]
     public class Door : InteractableObject

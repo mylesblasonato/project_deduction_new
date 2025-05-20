@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using ArtNotes.PhysicalInteraction.Interfaces;
+using UnityEngine;
 
 namespace ArtNotes.PhysicalInteraction
 {

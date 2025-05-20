@@ -82,6 +82,16 @@ public class Simple_PlayerMovement : MonoBehaviour
         _cameraTransform.localPosition = cameraPosition;
     }
 
+    public void StopMovement()
+    {
+        _body.isKinematic = true;
+    }
+
+    public void EnableMovement()
+    {
+        _body.isKinematic = false;
+    }
+
     void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.green;
